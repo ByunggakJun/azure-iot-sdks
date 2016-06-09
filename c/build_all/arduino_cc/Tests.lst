@@ -1,0 +1,26 @@
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
+[Adafruit_Huzzah_remote_monitoring]
+RelativePath=\iot-hub-c-huzzah-getstartedkit\remote_monitoring\remote_monitoring.ino
+RelativeWorkingDir=\Work\Results\remote_monitoring
+MaxAllowedDurationSeconds=100
+Categories=IoTHub
+Hardware=Adafruit_Huzzah
+CPUParameters=-fqbn=esp8266:esp8266:huzzah:CpuFrequency=80,UploadSpeed=115200,FlashSize=4M3M -ide-version=10609
+Build=Enable
+Installation=Disable
+Execution=Disable
+
+[Adafruit_Huzzah_simplesample_http]
+RelativePath=\Work\arduino\libraries\AzureIoTHub\examples\simplesample_http\simplesample_http.ino
+RelativeWorkingDir=\Work\Results\simplesample_http
+MaxAllowedDurationSeconds=100
+Categories=IoTHub
+Hardware=Adafruit_Huzzah
+CPUParameters=-fqbn=esp8266:esp8266:huzzah:CpuFrequency=80,UploadSpeed=115200,FlashSize=4M3M -ide-version=10609
+Build=Enable
+Installation=Disable
+Execution=Disable
+
+[End]
